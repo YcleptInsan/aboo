@@ -11,11 +11,11 @@ $(document).ready(function() {
   });
   $(".flash2-cont").click(function() {
   $(".first-list").slideToggle(1000);
-  })
-  $("#togglelist").click(function() {
-  $(".assignment").slideToggle(1000);
-
-  });
+});
+  // $("#togglelist").click(function() {
+  // $(".assignment").slideToggle(1000);
+  //
+  // });
   // $("#flash3").click(function() {
   //   $(".flash3-cont").slideToggle(1000);
   //
