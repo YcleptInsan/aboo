@@ -3,12 +3,18 @@ $(document).ready(function() {
     $(".flash1-cont").slideToggle(1000);
 
   });
-  $("#flash2").click(function() {
+  $("#test1").click(function() {
   $(".flash2-cont").slideToggle(1000);
+  // $("#flash2").eventPause("active");
+  // $("#flash2").on();
 
   });
+  $(".flash2-cont").click(function() {
+  $(".first-list").slideToggle(1000);
+  $("#flash2").eventPause("active").click();
+  })
   $("#togglelist").click(function() {
-  $(".assignment-list").slideToggle(1000);
+  $(".assignment").slideToggle(1000);
 
   });
   $("#flash3").click(function() {

@@ -45,7 +45,7 @@ a {
 #flash2 p {
 	text-decoration: underline;
 }
-#assignment-list {
+.first-list {
 	display: none;
 }
 .flash2-cont {
@@ -81,4 +81,9 @@ a {
 }
 .flash2-cont #relational {
 
+}
+
+.test {
+	background-color: blue;
+	color: white;
 }
